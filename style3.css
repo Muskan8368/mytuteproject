@@ -1,0 +1,98 @@
+/* Center the form */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+}
+
+/* Form container */
+.form-container {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+  width: 350px;
+}
+
+/* Headline */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Labels and inputs */
+label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+/* Password field with toggle */
+.password-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.password-wrapper input {
+  flex: 1;
+}
+
+.password-wrapper button {
+  margin-left: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+  border: none;
+  background: #eee;
+  border-radius: 6px;
+}
+
+/* Messages */
+#messageBox {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 6px;
+  display: none;
+}
+
+.error {
+  background: #ffe0e0;
+  color: #a94442;
+  border: 1px solid #a94442;
+}
+
+.success {
+  background: #dff0d8;
+  color: #3c763d;
+  border: 1px solid #3c763d;
+}
+
+/* Submit button */
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  background: #4CAF50;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type="submit"]:hover {
+  background: #45a049;
+}
+
